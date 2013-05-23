@@ -1,8 +1,8 @@
 /**
  * A helper class to construct and manage RedQueryBuilder instances.
- * 
+ *
  * Use RedQueryBuilderFactory.create rather than the constructor.
- * 
+ *
  * @constructor
  */
 function RedQueryBuilderFactory(config, sql, args) {
@@ -11,13 +11,13 @@ function RedQueryBuilderFactory(config, sql, args) {
      * @type Configuration
      */
 	this.config = config;
-	
+  
     /**
      * Initial SQL.
      * @type string
      */
 	this.sql = sql;
-	
+
     /**
      * Initial arguments.
      * @type string[]
